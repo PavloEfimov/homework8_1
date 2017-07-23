@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
+/*23/07/17 добавил отступ слева*/
 header {
     background-color: #ffa500;
     min-height: 100px;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-left: 2%;
 }
 
 img {
@@ -23,14 +25,20 @@ img {
 	min-height: 85px;
 }
 
-
-header h1,
+/*23/07/17 убрал лишние отступы*/
+/*header h1,
 header p {
     margin: 5%;
+}*/
+h1{
+    padding-bottom: 1%;
 }
-h2,
-p {
+h2, p{
     margin-bottom: 3%;
+}
+/*23/07/17 убрал лишнее нижнее поле в заголовке*/
+.task{
+    margin-bottom: 0;
 }
 article {
     margin: 1%;
